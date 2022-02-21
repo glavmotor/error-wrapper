@@ -3,12 +3,12 @@ Error Wrapper
 
 Inheritance from the package's classes allows you to handle errors of any level in a uniform way and automatically log error messages if desired. This is a familiar routine, a fraction of which I wanted to reduce:)
 
-* `Source on GitHub <http://github.com>`_
-
 Installation
 ============
 
 Install from PyPI with:
+
+.. code::
 
     pip install error-wrapper
 
