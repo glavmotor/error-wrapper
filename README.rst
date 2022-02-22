@@ -49,9 +49,9 @@ Completely abstract example:)
     # Default creating params: report_prefix=None, exception_name_in_detail=False,
     #                          logger=None, auto_logging=False
 
-    divnum_with_defaults = DevNum()
+    divnum_with_defaults = DivNum()
 
-    divnum_with_auto_logging = DevNum(auto_logging=True, logger=logger)
+    divnum_with_auto_logging = DivNum(auto_logging=True, logger=logger)
 
-    divnum_with_prefix_in_log_or_error_vessage = DevNum(report_prefix='DevNum instance error: ')
+    divnum_with_prefix_in_log_or_error_vessage = DivNum(report_prefix='DevNum instance error: ')
 
