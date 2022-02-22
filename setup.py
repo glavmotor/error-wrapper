@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 setup(
     name='error-wrapper',
     packages=find_packages(include=['error_wrapper']),
-    version='0.9.5',
+    version='0.9.6',
     url='https://github.com/glavmotor/error-wrapper',
     description='Error wrapper with auto logging',
     long_description=open('README.rst').read(),
